@@ -1,0 +1,30 @@
+# Minimal Requirements for Steel Industry Load Type Prediction
+# Essential dependencies only - for basic functionality
+
+# Core Data Science Libraries (Required)
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Machine Learning Core (Required)
+scikit-learn>=1.1.0
+scipy>=1.9.0
+
+# Model Persistence (Required)
+joblib>=1.1.0
+
+# Jupyter Environment (Required)
+jupyter>=1.0.0
+notebook>=6.4.0
+ipykernel>=6.15.0
+
+# Statistical Analysis (Required for VIF calculation)
+statsmodels>=0.13.0
+
+# Date/Time handling (Required)
+python-dateutil>=2.8.0
+
+# Advanced ML Libraries (Optional - notebooks will work without these)
+# xgboost>=1.6.0
+# lightgbm>=3.3.0
